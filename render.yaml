@@ -1,0 +1,1 @@
+services: - type: web name: gestor-app runtime: node buildCommand: npm install && npm run build startCommand: npm run preview envVars: - key: PORT value: 3000
